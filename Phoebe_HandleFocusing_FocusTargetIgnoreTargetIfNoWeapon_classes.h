@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass Phoebe_HandleFocusing_FocusTargetIgnoreTargetIfNoWeapon.Phoebe_HandleFocusing_FocusTargetIgnoreTargetIfNoWeapon_C
+// Size: 0xf0 (Inherited: 0xf0)
+struct UPhoebe_HandleFocusing_FocusTargetIgnoreTargetIfNoWeapon_C : UFortAthenaAIBotEvaluator_HandleFocusing {
+};
+

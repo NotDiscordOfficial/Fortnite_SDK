@@ -1,0 +1,15 @@
+// ScriptStruct ArgonUI.ArgonLeaderboardData
+// Size: 0x28 (Inherited: 0x00)
+struct FArgonLeaderboardData {
+	int32_t Placement; // 0x00(0x04)
+	char Team; // 0x04(0x01)
+	char pad_5[0x3]; // 0x05(0x03)
+	struct FString TeamLeaderPlayerName; // 0x08(0x10)
+	int32_t TicketCount; // 0x18(0x04)
+	int32_t TicketsRequired; // 0x1c(0x04)
+	bool bHasAllTickets; // 0x20(0x01)
+	bool bHasFinished; // 0x21(0x01)
+	char pad_22[0x2]; // 0x22(0x02)
+	float FinishedTime; // 0x24(0x04)
+};
+

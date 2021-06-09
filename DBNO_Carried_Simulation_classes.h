@@ -1,0 +1,50 @@
+// AnimBlueprintGeneratedClass DBNO_Carried_Simulation.DBNO_Carried_Simulation_C
+// Size: 0xd00 (Inherited: 0x2c0)
+struct UDBNO_Carried_Simulation_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x2c0(0x08)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x2c8(0x30)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_6; // 0x2f8(0x20)
+	struct FAnimNode_LinkedInputPose AnimGraphNode_SubInput; // 0x318(0x118)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_6; // 0x430(0x20)
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; // 0x450(0xa0)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_3; // 0x4f0(0x158)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_8; // 0x648(0x28)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; // 0x670(0x158)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_5; // 0x7c8(0x20)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_5; // 0x7e8(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_7; // 0x808(0x28)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_4; // 0x830(0x20)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_4; // 0x850(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_6; // 0x870(0x28)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_5; // 0x898(0x28)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_3; // 0x8c0(0x20)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_3; // 0x8e0(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; // 0x900(0x28)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; // 0x928(0x20)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; // 0x948(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; // 0x968(0x28)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; // 0x990(0x20)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; // 0x9b0(0x20)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; // 0x9d0(0x28)
+	struct FAnimNode_BlendListByInt AnimGraphNode_BlendListByInt_2; // 0x9f8(0xa0)
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; // 0xa98(0x158)
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; // 0xbf0(0x28)
+	struct FAnimNode_BlendListByInt AnimGraphNode_BlendListByInt; // 0xc18(0xa0)
+	struct APlayerPawn_Athena_C* CarrierPawn; // 0xcb8(0x08)
+	struct UFortPlayerAnimInstance* CarrierAnimBP; // 0xcc0(0x08)
+	struct FVector LHandIKLocation; // 0xcc8(0x0c)
+	struct FRotator LHandIKRotation; // 0xcd4(0x0c)
+	struct FVector TempAttachLocation; // 0xce0(0x0c)
+	struct FRotator TempAttachRotation; // 0xcec(0x0c)
+	enum class EFortCustomGender my_gender; // 0xcf8(0x01)
+	bool IsMale; // 0xcf9(0x01)
+	enum class EFortPlayerAnimBodyType my_animbodytype; // 0xcfa(0x01)
+	char pad_CFB[0x1]; // 0xcfb(0x01)
+	int32_t bodytype_int; // 0xcfc(0x04)
+
+	void AnimGraph(struct FPoseLink InPose, struct FPoseLink AnimGraph); // Function DBNO_Carried_Simulation.DBNO_Carried_Simulation_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0xda7c34
+	void BlueprintUpdateAnimation(float DeltaTimeX); // Function DBNO_Carried_Simulation.DBNO_Carried_Simulation_C.BlueprintUpdateAnimation // (Event|Public|BlueprintEvent) // @ game+0xda7c34
+	void BlueprintInitializeAnimation(); // Function DBNO_Carried_Simulation.DBNO_Carried_Simulation_C.BlueprintInitializeAnimation // (Event|Public|BlueprintEvent) // @ game+0xda7c34
+	void ExecuteUbergraph_DBNO_Carried_Simulation(int32_t EntryPoint); // Function DBNO_Carried_Simulation.DBNO_Carried_Simulation_C.ExecuteUbergraph_DBNO_Carried_Simulation // (Final|UbergraphFunction) // @ game+0xda7c34
+};
+

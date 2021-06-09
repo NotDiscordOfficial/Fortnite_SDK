@@ -1,0 +1,18 @@
+// SolarisGeneratedClass VerseFortnite_hud_dynamic_director.hud_dynamic_director
+// Size: 0x1c0 (Inherited: 0x1c0)
+struct Uhud_dynamic_director : UHUDDynamicDirectorBase {
+
+	void SetupDatastore(struct Uplayer_component* __verse_0xE5E3B371_Player); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.SetupDatastore // (Native|Static|Public|BlueprintCallable) // @ game+0x430b978
+	void SetHUDCameraMode(struct Uplayer_component* __verse_0xE5E3B371_Player, char __verse_0xFA2FE978_CameraMode); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.SetHUDCameraMode // (Native|Static|Public|BlueprintCallable) // @ game+0x430b930
+	void SetDatastoreValueInt(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0x9D5B13CB_WidgetUniqueID, struct FString __verse_0x0631D255_VarName, int32_t __verse_0x31A8F10C_Value); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.SetDatastoreValueInt // (Native|Static|Public|BlueprintCallable) // @ game+0x430b918
+	void SetDatastoreValue(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0x9D5B13CB_WidgetUniqueID, struct FString __verse_0x0631D255_VarName, struct FString __verse_0x31A8F10C_Value); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.SetDatastoreValue // (Native|Static|Public|BlueprintCallable) // @ game+0x430b928
+	void RemoveScene(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0x72B10F24_Message); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.RemoveScene // (Native|Static|Public|BlueprintCallable) // @ game+0x430b89c
+	void LoadSceneCatalog(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0x72B10F24_Message); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.LoadSceneCatalog // (Native|Static|Public|BlueprintCallable) // @ game+0x430b884
+	struct FString GetMessageDataFromPlayerClientAsString(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0xEF848A28_UniqueMessageID); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.GetMessageDataFromPlayerClientAsString // (Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x430b7c8
+	int32_t GetMessageDataFromPlayerClientAsInt(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0xEF848A28_UniqueMessageID); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.GetMessageDataFromPlayerClientAsInt // (Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x430b7c0
+	float GetMessageDataFromPlayerClientAsFloat(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0xEF848A28_UniqueMessageID); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.GetMessageDataFromPlayerClientAsFloat // (Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x430b7b8
+	void AddScene(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0x72B10F24_Message); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.AddScene // (Native|Static|Public|BlueprintCallable) // @ game+0x430b5e0
+	struct Upulse_event* AddClientMessageEventForPlayer(struct Uplayer_component* __verse_0xE5E3B371_Player, struct FString __verse_0xEF848A28_UniqueMessageID); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.AddClientMessageEventForPlayer // (Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0x430b5d8
+	void $InitCDO(); // Function VerseFortnite_hud_dynamic_director.hud_dynamic_director.$InitCDO // (None) // @ game+0xda7c34
+};
+

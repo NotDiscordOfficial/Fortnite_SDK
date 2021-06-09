@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass KnobFilterRange_GameSettingsOptions_TeamToMoveToWhenOutOfSpawns.KnobFilterRange_GameSettingsOptions_TeamToMoveToWhenOutOfSpawns_C
+// Size: 0xc8 (Inherited: 0xc8)
+struct UKnobFilterRange_GameSettingsOptions_TeamToMoveToWhenOutOfSpawns_C : UPlaylistUserOptionsFilterRange {
+};
+

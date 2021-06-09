@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass BP_SpeedLines_Looping_Camera_Lens_SurfaceChange_Sand_Burrowed.BP_SpeedLines_Looping_Camera_Lens_SurfaceChange_Sand_Burrowed_C
+// Size: 0x2e0 (Inherited: 0x2e0)
+struct ABP_SpeedLines_Looping_Camera_Lens_SurfaceChange_Sand_Burrowed_C : AEmitterCameraLensEffectBase {
+};
+
